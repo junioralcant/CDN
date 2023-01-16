@@ -6,11 +6,12 @@ document
       .value;
     const cpf = document.getElementsByName('cf_cpf')[0].value;
     const data_nascimento = document.getElementsByName(
-      'cf_celular_whatsapp_para_contato'
+      'cf_data_de_nascimento'
     )[0].value;
     const email = document.getElementsByName('email')[0].value;
-    const telefone =
-      document.getElementsByName('mobile_phone')[0].value;
+    const telefone = document.getElementsByName(
+      'cf_celular_whatsapp_para_contato '
+    )[0].value;
     const saldo = document.getElementsByName(
       'cf_saldo_do_seu_fgts'
     )[0].value;
