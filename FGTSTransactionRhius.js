@@ -49,7 +49,7 @@ document
       };
 
       fetch(
-        'https://deixanoazul.fly.dev/api/transaction-fgts/rhius',
+        'http://15.229.86.72:3333/api/transaction-fgts/rhius',
         optionsFgts
       )
         .then((response) => response.json())
